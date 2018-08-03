@@ -1,0 +1,44 @@
+h1{
+    font-size:114px;
+    background-image: url("https://78.media.tumblr.com/22732eb1d0f1d224f35b1e02bba8b668/tumblr_n2uodh5mHZ1tv1bhvo1_500.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+    Padding: 20px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.title{
+    text-align: center;
+    min-height:250px;
+}
+.table{
+    border:3px solid black;
+    padding:20px;
+    background-color:white;
+}
+.form{
+    background:lightgray;
+    padding:20px
+}
+.row{
+    justify-content: space-evenly;
+}
+.topRow{
+    font-weight: bolder;
+    font-size:24px;
+}
+.row + .row{
+    border-top: 1px solid black;
+}
+button{
+    margin-bottom:20px;
+}
+.formHead{
+    background-color:darkgray;
+    max-width: 220px;
+}
+div + input{
+    margin-bottom:20px;
+}
